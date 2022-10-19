@@ -1,4 +1,4 @@
-import requests,argparse, concurrent, builtwith, sys, pyfiglet
+import requests, argparse, concurrent, builtwith, sys, pyfiglet
 import simple_colors as c
 from concurrent.futures import ThreadPoolExecutor
 
