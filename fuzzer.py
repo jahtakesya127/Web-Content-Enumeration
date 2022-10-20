@@ -1,4 +1,4 @@
-import requests, argparse, concurrent, builtwith, sys, pyfiglet
+import requests, argparse, concurrent, builtwith,  pyfiglet
 import simple_colors as c
 from concurrent.futures import ThreadPoolExecutor
 
@@ -25,10 +25,9 @@ ext = args.ext
 if rHeaders == True and filename == None:
 	r = requests.get(url)
 	print(c.magenta(r.headers))
-	sys.exit(0)
+	
 if techID == True and filename == None:
 	print(c.magenta(builtwith.parse(url)))
-	sys.exit(0)
 else:
 	pass
 
